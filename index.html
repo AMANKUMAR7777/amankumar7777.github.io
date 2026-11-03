@@ -5,17 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>Aman Kumar (AMANKUMAR7777) — Developer</title>
-<meta name="description" content="Aman Kumar is a developer who builds focused open-source tools: SiftAI local-LLM file organizer, PDS paper data storage, sys-mon terminal monitor and GLSL-Stress. GitHub: AMANKUMAR7777.">
+<meta name="description" content="Aman Kumar is a developer who builds focused open-source tools: SiftAI local-LLM file organizer, PDS paper data storage, GLSL-Stress and more. GitHub: AMANKUMAR7777.">
 <meta name="author" content="Aman Kumar">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <link rel="canonical" href="https://amankumar7777.github.io/">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="sitemap" href="/sitemap.xml" type="application/xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="/assets/style.css">
 
 <meta property="og:type" content="profile">
 <meta property="og:site_name" content="Aman Kumar">
 <meta property="og:title" content="Aman Kumar (AMANKUMAR7777) — Developer">
-<meta property="og:description" content="Developer building focused open-source tools: SiftAI, PDS, sys-mon, GLSL-Stress. GitHub: AMANKUMAR7777.">
+<meta property="og:description" content="Developer building focused open-source tools: SiftAI, PDS, GLSL-Stress. GitHub: AMANKUMAR7777.">
 <meta property="og:url" content="https://amankumar7777.github.io/">
 <meta property="og:image" content="https://amankumar7777.github.io/og.png">
 <meta property="og:image:width" content="1200">
@@ -30,6 +33,9 @@
 <meta name="twitter:title" content="Aman Kumar (AMANKUMAR7777) — Developer">
 <meta name="twitter:description" content="Developer building focused open-source tools. GitHub: AMANKUMAR7777.">
 <meta name="twitter:image" content="https://amankumar7777.github.io/og.png">
+<meta name="theme-color" content="#0b0a09">
+
+<script>document.documentElement.classList.add("js");</script>
 
 <script type="application/ld+json">
 {
@@ -67,168 +73,265 @@
       "name": "Aman Kumar (AMANKUMAR7777) — Developer",
       "isPartOf": { "@id": "https://amankumar7777.github.io/#website" },
       "mainEntity": { "@id": "https://amankumar7777.github.io/#person" }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://amankumar7777.github.io/#work",
+      "name": "Selected work by Aman Kumar",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "SiftAI", "url": "https://github.com/AMANKUMAR7777/SiftAI" },
+        { "@type": "ListItem", "position": 2, "name": "PDS — Paper Drive Storage", "url": "https://github.com/AMANKUMAR7777/PDS-Paper-Drive-Storage-" },
+        { "@type": "ListItem", "position": 3, "name": "GLSL-Stress", "url": "https://glsl-stress.vercel.app" },
+        { "@type": "ListItem", "position": 4, "name": "CSS Animation Studio", "url": "https://css-animation-studio-seven.vercel.app" },
+        { "@type": "ListItem", "position": 5, "name": "leafLine", "url": "https://leaf-line.vercel.app" },
+        { "@type": "ListItem", "position": 6, "name": "BRAT Generator", "url": "https://brat-generator-ashen.vercel.app" }
+      ]
     }
   ]
 }
 </script>
-
-<style>
-  :root{
-    --paper:#f7f4ed;
-    --ink:#16130f;
-    --soft:#5d574c;
-    --line:#d9d2c4;
-    --accent:#b3402a;
-  }
-  *{box-sizing:border-box}
-  html{-webkit-text-size-adjust:100%}
-  body{
-    margin:0;
-    background:var(--paper);
-    color:var(--ink);
-    font:400 17px/1.65 ui-serif,Georgia,"Iowan Old Style","Times New Roman",serif;
-    padding:0 24px;
-  }
-  .wrap{max-width:46rem;margin:0 auto;padding:56px 0 96px}
-  .mono{
-    font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,monospace;
-    font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--soft)
-  }
-  header{display:flex;justify-content:space-between;align-items:baseline;gap:16px;flex-wrap:wrap;
-    border-bottom:1px solid var(--line);padding-bottom:14px}
-  header a{color:inherit;text-decoration:none}
-  header a:hover{color:var(--accent)}
-  nav{display:flex;gap:18px}
-  h1{font-size:clamp(2.6rem,7vw,4.25rem);line-height:1.02;letter-spacing:-.025em;margin:44px 0 0;font-weight:600}
-  .handle{display:inline-block;margin-top:14px}
-  .lede{font-size:1.2rem;line-height:1.6;max-width:34rem;margin:26px 0 0;color:#2c2620}
-  .lede strong{font-weight:600}
-  section{margin-top:64px}
-  h2{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
-    color:var(--soft);font-weight:500;margin:0 0 22px;border-bottom:1px solid var(--line);padding-bottom:10px}
-  .work{list-style:none;margin:0;padding:0;display:grid;gap:2px}
-  .work li{border-top:1px solid var(--line)}
-  .work li:first-child{border-top:0}
-  .work a{display:grid;grid-template-columns:1fr auto;gap:4px 18px;text-decoration:none;color:inherit;padding:18px 0}
-  .work a:hover .name{color:var(--accent)}
-  .name{font-size:1.22rem;font-weight:600;letter-spacing:-.01em}
-  .lang{font-size:12px;align-self:start;padding-top:6px}
-  .desc{grid-column:1/-1;color:var(--soft);font-size:.97rem;max-width:38rem}
-  .more{list-style:none;padding:0;margin:18px 0 0;display:flex;flex-wrap:wrap;gap:8px 20px;font-size:.95rem}
-  .more a{color:var(--ink);text-decoration:none;border-bottom:1px solid var(--line)}
-  .more a:hover{color:var(--accent);border-color:var(--accent)}
-  .stack p{margin:0;max-width:36rem}
-  a{color:var(--accent)}
-  .links{list-style:none;padding:0;margin:0;display:grid;gap:10px;font-size:1.02rem}
-  .links a{display:inline-flex;gap:10px;text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px}
-  .links a:hover{border-color:var(--accent)}
-  footer{margin-top:72px;border-top:1px solid var(--line);padding-top:18px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
-  @media (max-width:520px){
-    .wrap{padding-top:36px}
-    h1{margin-top:34px}
-    .lede{font-size:1.08rem}
-  }
-  @media (prefers-reduced-motion:no-preference){
-    a{transition:color .18s ease,border-color .18s ease}
-  }
-</style>
 </head>
 <body>
-<div class="wrap">
 
-  <header>
-    <a class="mono" href="/">aman<span style="color:var(--accent)">kumar</span>7777</a>
-    <nav class="mono">
-      <a href="#work">Work</a>
-      <a href="#stack">Stack</a>
-      <a href="#elsewhere">Elsewhere</a>
-    </nav>
-  </header>
-
-  <main>
-    <h1>Aman Kumar</h1>
-    <p class="handle mono">Developer · GitHub <a href="https://github.com/AMANKUMAR7777" style="color:inherit">AMANKUMAR7777</a></p>
-
-    <p class="lede">
-      I build <strong>small, sharp tools</strong> that make computers less annoying — local-first
-      software, browser experiments, and scripts I actually use every day.
-    </p>
-
-    <section id="work">
-      <h2>Selected work</h2>
-      <ul class="work">
-        <li>
-          <a href="https://github.com/AMANKUMAR7777/SiftAI">
-            <span class="name">SiftAI</span>
-            <span class="lang mono">Python</span>
-            <span class="desc">Universal file organizer powered by customizable local LLM models. Zero deletions, soft modern UI.</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/AMANKUMAR7777/PDS-Paper-Drive-Storage-">
-            <span class="name">PDS — Paper Drive Storage</span>
-            <span class="lang mono">HTML</span>
-            <span class="desc">High-density paper data storage: encode any file into a pixel grid, print it on A4, decode it back with a camera.</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/AMANKUMAR7777/sys-mon">
-            <span class="name">sys-mon</span>
-            <span class="lang mono">Python</span>
-            <span class="desc">A lightweight, good-looking terminal resource monitor.</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/AMANKUMAR7777/GLSL-Stress">
-            <span class="name">GLSL Stress</span>
-            <span class="lang mono">WebGL</span>
-            <span class="desc">Ray-marching stress test with live-editable fragment shaders that push the GPU to its limit.</span>
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/AMANKUMAR7777/fapt">
-            <span class="name">fapt</span>
-            <span class="lang mono">Shell</span>
-            <span class="desc">A bash script that shortens the Debian and Ubuntu package workflows I type every day.</span>
-          </a>
-        </li>
-      </ul>
-
-      <ul class="more">
-        <li><a href="https://github.com/AMANKUMAR7777/CssAnimationStudio">CSS Animation Studio</a></li>
-        <li><a href="https://github.com/AMANKUMAR7777/two-person-chat">two-person-chat</a></li>
-        <li><a href="https://github.com/AMANKUMAR7777/MacOS">MacOS UI in the browser</a></li>
-        <li><a href="https://github.com/AMANKUMAR7777/leafLine">leafLine</a></li>
-        <li><a href="https://github.com/AMANKUMAR7777/bratGenerator">brat generator</a></li>
-        <li><a href="https://github.com/AMANKUMAR7777?tab=repositories">All repositories</a></li>
-      </ul>
-    </section>
-
-    <section id="stack" class="stack">
-      <h2>Stack</h2>
-      <p>
-        Python, JavaScript and TypeScript, C++, React, HTML and CSS. Linux (Fedora) is my daily
-        driver. I reach for WebGL when a page should feel alive, and for plain HTML when it should
-        just load.
-      </p>
-    </section>
-
-    <section id="elsewhere">
-      <h2>Elsewhere</h2>
-      <ul class="links">
-        <li><a rel="me" href="https://github.com/AMANKUMAR7777">GitHub — github.com/AMANKUMAR7777</a></li>
-        <li><a rel="me" href="https://www.linkedin.com/in/amankumar-builds/">LinkedIn — in/amankumar-builds</a></li>
-        <li><a rel="me" href="https://x.com/AMANKUM49168830">X — @AMANKUM49168830</a></li>
-        <li><a href="mailto:aman.build@proton.me">Email — aman.build@proton.me</a></li>
-      </ul>
-    </section>
-  </main>
-
-  <footer class="mono">
-    <span>© 2026 Aman Kumar</span>
-    <span>Built by hand. No trackers.</span>
-  </footer>
-
+<div class="nav-wrap">
+  <nav class="nav" aria-label="Primary">
+    <a class="nav__logo" href="#top" aria-label="Aman Kumar — top of page">AK</a>
+    <span class="nav__div" aria-hidden="true"></span>
+    <a class="nav__link" href="#work">Work</a>
+    <a class="nav__link" href="#about">About</a>
+    <a class="nav__link nav__link--desktop" href="#contact">Contact</a>
+    <a class="nav__cta" href="mailto:aman.build@proton.me">Hire me</a>
+  </nav>
 </div>
+
+<header class="hero" id="top">
+  <div class="hero__glow hero__glow--a" aria-hidden="true"></div>
+  <div class="hero__glow hero__glow--b" aria-hidden="true"></div>
+  <div class="hero__grain" aria-hidden="true"></div>
+
+  <div class="hero__inner">
+    <p class="mono hero__eyebrow">Portfolio — AMANKUMAR7777</p>
+    <h1>Aman Kumar</h1>
+    <p class="hero__role">A <span data-role>developer</span> building small, sharp tools.</p>
+    <div class="hero__actions">
+      <a class="btn btn--solid" href="#work">See the work <span class="btn__arrow" aria-hidden="true">→</span></a>
+      <a class="btn btn--ghost" href="https://github.com/AMANKUMAR7777">GitHub</a>
+    </div>
+  </div>
+
+  <a class="hero__scroll" href="#work" aria-label="Scroll to work">
+    <span class="mono">Scroll</span>
+    <span class="hero__scroll-line" aria-hidden="true"></span>
+  </a>
+</header>
+
+<main>
+
+  <section class="section" id="work">
+    <div class="shell">
+      <div class="sec-head reveal">
+        <div>
+          <div class="sec-head__eyebrow">
+            <span class="sec-head__rule" aria-hidden="true"></span>
+            <span class="mono">Selected work</span>
+          </div>
+          <h2>Things I built <em>and use</em></h2>
+          <p>Every project here started as a personal annoyance. Six of them got finished.</p>
+        </div>
+        <a class="btn btn--ghost" href="https://github.com/AMANKUMAR7777?tab=repositories">All repositories</a>
+      </div>
+
+      <div class="work-grid">
+        <a class="card card--wide reveal" href="https://github.com/AMANKUMAR7777/SiftAI">
+          <span class="card__media">
+            <img src="/assets/siftai.webp" alt="SiftAI — file organizer driven by a local LLM" width="1200" height="750" loading="lazy" decoding="async">
+          </span>
+          <span class="card__body">
+            <span>
+              <span class="card__title">SiftAI</span>
+              <span class="card__meta">Local LLM · Python</span>
+            </span>
+            <span class="card__go" aria-hidden="true">↗</span>
+          </span>
+        </a>
+
+        <a class="card card--narrow reveal" href="https://github.com/AMANKUMAR7777/PDS-Paper-Drive-Storage-">
+          <span class="card__media">
+            <img src="/assets/pds.webp" alt="PDS — paper data storage pixel grid" width="1200" height="750" loading="lazy" decoding="async">
+          </span>
+          <span class="card__body">
+            <span>
+              <span class="card__title">PDS — Paper Drive</span>
+              <span class="card__meta">Archive on A4 · HTML/JS</span>
+            </span>
+            <span class="card__go" aria-hidden="true">↗</span>
+          </span>
+        </a>
+
+        <a class="card card--narrow reveal" href="https://glsl-stress.vercel.app">
+          <span class="card__media">
+            <img src="/assets/glsl.webp" alt="Ray-marched contour field rendered by GLSL-Stress" width="1200" height="750" loading="lazy" decoding="async">
+          </span>
+          <span class="card__body">
+            <span>
+              <span class="card__title">GLSL-Stress</span>
+              <span class="card__meta">Ray marching · WebGL</span>
+            </span>
+            <span class="card__go" aria-hidden="true">↗</span>
+          </span>
+        </a>
+
+        <a class="card card--wide reveal" href="https://css-animation-studio-seven.vercel.app">
+          <span class="card__media">
+            <img src="/assets/css-animation-studio.webp" alt="CSS Animation Studio interface with live preview and timing curve" width="1200" height="750" loading="lazy" decoding="async">
+          </span>
+          <span class="card__body">
+            <span>
+              <span class="card__title">CSS Animation Studio</span>
+              <span class="card__meta">Browser tool · JS/CSS</span>
+            </span>
+            <span class="card__go" aria-hidden="true">↗</span>
+          </span>
+        </a>
+
+        <a class="card card--wide reveal" href="https://leaf-line.vercel.app">
+          <span class="card__media">
+            <img src="/assets/leaf-line.webp" alt="leafLine landing page showing live environmental data" width="1200" height="750" loading="lazy" decoding="async">
+          </span>
+          <span class="card__body">
+            <span>
+              <span class="card__title">leafLine</span>
+              <span class="card__meta">Live data · CSS/JS</span>
+            </span>
+            <span class="card__go" aria-hidden="true">↗</span>
+          </span>
+        </a>
+
+        <a class="card card--narrow reveal" href="https://brat-generator-ashen.vercel.app">
+          <span class="card__media">
+            <img src="/assets/brat-generator.webp" alt="BRAT Generator Pro — a poster tool with live text preview" width="1200" height="750" loading="lazy" decoding="async">
+          </span>
+          <span class="card__body">
+            <span>
+              <span class="card__title">BRAT Generator</span>
+              <span class="card__meta">Poster tool · JS/CSS</span>
+            </span>
+            <span class="card__go" aria-hidden="true">↗</span>
+          </span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="shell">
+      <div class="stats">
+        <div class="stat reveal">
+          <span class="stat__num"><span data-count="20">20</span></span>
+          <span class="stat__label">Public repositories</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num"><span data-count="5">5</span></span>
+          <span class="stat__label">Live demos</span>
+        </div>
+        <div class="stat reveal">
+          <span class="stat__num"><span data-count="3">3</span><em>+</em></span>
+          <span class="stat__label">Years on GitHub</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="shell">
+      <div class="sec-head reveal">
+        <div>
+          <div class="sec-head__eyebrow">
+            <span class="sec-head__rule" aria-hidden="true"></span>
+            <span class="mono">About</span>
+          </div>
+          <h2>Local first, <em>cloud never</em></h2>
+        </div>
+      </div>
+
+      <div class="about">
+        <div class="reveal">
+          <p>
+            I am Aman Kumar. I write software that runs on your machine, keeps your data there, and
+            does one job well. SiftAI sorts a messy folder with a local model. PDS puts files on
+            paper. sys-mon watches the machine without eating it.
+          </p>
+          <p>
+            Most of what I know came from breaking things on Fedora, then reading the source of the
+            tools I broke. I work in Python, JavaScript and TypeScript, reach for C++ when something
+            needs to be fast, and use WebGL when a page should feel alive instead of flat.
+          </p>
+          <p>
+            Currently building SiftAI and looking for work where the tools matter more than the
+            slides. Write to <a href="mailto:aman.build@proton.me">aman.build@proton.me</a>.
+          </p>
+        </div>
+
+        <div class="reveal">
+          <ul class="chips" aria-label="Languages and tools">
+            <li class="chip">Python</li>
+            <li class="chip">JavaScript</li>
+            <li class="chip">TypeScript</li>
+            <li class="chip">C++</li>
+            <li class="chip">React</li>
+            <li class="chip">Node</li>
+            <li class="chip">WebGL / GLSL</li>
+            <li class="chip">HTML / CSS</li>
+            <li class="chip">Fedora</li>
+            <li class="chip">Git</li>
+          </ul>
+
+          <ul class="now-list" style="margin-top: 28px">
+            <li><span>Currently building</span><span>SiftAI</span></li>
+            <li><span>Daily driver</span><span>Fedora · Python</span></li>
+            <li><span>Open to</span><span>Work · freelance</span></li>
+            <li><span>Elsewhere</span><span><a href="https://github.com/AMANKUMAR7777">GitHub</a></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--tight">
+    <div class="shell">
+      <div class="marquee" aria-hidden="true">
+        <div class="marquee__track">
+          <span>Building tools <i>·</i> local first <i>·</i> open source <i>·</i></span>
+          <span>Building tools <i>·</i> local first <i>·</i> open source <i>·</i></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="shell">
+      <p class="mono contact__eyebrow">Got a project in mind?</p>
+      <h2>Let's make something <em>useful</em></h2>
+      <a class="contact__mail" href="mailto:aman.build@proton.me">aman.build@proton.me</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="shell">
+    <div class="foot">
+      <span>© <span data-year>2026</span> Aman Kumar</span>
+      <ul class="foot__links">
+        <li><a rel="me" href="https://github.com/AMANKUMAR7777">GitHub</a></li>
+        <li><a rel="me" href="https://www.linkedin.com/in/amankumar-builds/">LinkedIn</a></li>
+        <li><a rel="me" href="https://x.com/AMANKUM49168830">X</a></li>
+        <li><a href="mailto:aman.build@proton.me">Email</a></li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js" defer></script>
 </body>
 </html>

@@ -6,21 +6,30 @@
 <meta name="robots" content="noindex">
 <title>Page not found — Aman Kumar</title>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400&display=swap">
 <style>
-  body{margin:0;min-height:100vh;display:grid;place-items:center;background:#f7f4ed;color:#16130f;
-    font:400 17px/1.6 ui-serif,Georgia,serif;padding:24px;text-align:center}
-  h1{font-size:clamp(2rem,7vw,3.5rem);margin:0 0 8px;letter-spacing:-.02em}
-  p{color:#5d574c;margin:0 0 24px}
-  a{color:#b3402a}
-  .mono{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#5d574c}
+  :root { --bg:#0b0a09; --text:#f4f1ea; --muted:#918b81; --accent:#d1603f; }
+  body {
+    margin: 0; min-height: 100svh; display: grid; place-items: center;
+    background: radial-gradient(circle at 30% 10%, #1c1714 0%, #0b0a09 60%);
+    color: var(--text); font-family: Inter, system-ui, sans-serif; font-weight: 300;
+    text-align: center; padding: 32px;
+  }
+  .mono { font-family: ui-monospace, Menlo, monospace; font-size: 11px; letter-spacing: 0.28em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-family: "Instrument Serif", Georgia, serif; font-style: italic; font-weight: 400; font-size: clamp(2.6rem, 9vw, 4.5rem); margin: 18px 0 10px; letter-spacing: -0.02em; }
+  p { color: var(--muted); margin: 0 0 28px; }
+  a { color: var(--text); text-decoration: none; border-bottom: 1px solid var(--accent); padding-bottom: 3px; }
+  a:hover { color: var(--accent); }
 </style>
 </head>
 <body>
   <div>
-    <p class="mono">404</p>
+    <p class="mono">404 — wrong turn</p>
     <h1>Nothing here</h1>
-    <p>That page does not exist. The front door does.</p>
-    <p><a href="/">Back to Aman Kumar’s homepage</a></p>
+    <p>That page does not exist. The work does.</p>
+    <a href="/">Back to Aman Kumar’s homepage</a>
   </div>
 </body>
 </html>
