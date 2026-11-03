@@ -4,7 +4,7 @@
   var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* ---- rotating role ---- */
-  var roles = ["developer", "builder", "Python tinkerer", "Linux daily driver"];
+  var roles = ["developer", "builder", "Python tinkerer", "toolsmith"];
   var roleEl = document.querySelector("[data-role]");
   if (roleEl && !reduced) {
     var i = 0;
