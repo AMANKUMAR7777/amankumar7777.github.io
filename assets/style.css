@@ -235,6 +235,15 @@ a {
   letter-spacing: -0.03em;
 }
 
+.hero--page {
+  min-height: auto;
+  padding: 190px 0 90px;
+}
+
+.hero--page h1 {
+  font-size: clamp(2.8rem, 10vw, 6.5rem);
+}
+
 .hero__role {
   margin: 26px 0 0;
   font-size: clamp(1rem, 2.2vw, 1.2rem);
@@ -761,6 +770,75 @@ section {
   .card__go {
     transition: none;
   }
+}
+
+/* ---------- profile prose + faq ---------- */
+
+.prose {
+  max-width: 46rem;
+}
+
+.prose p {
+  margin: 0 0 18px;
+  font-size: clamp(1rem, 1.6vw, 1.12rem);
+  color: #d9d4cb;
+}
+
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.prose strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.prose a,
+.faq__a a {
+  color: var(--text);
+  text-underline-offset: 4px;
+  text-decoration-color: var(--accent);
+}
+
+.faq {
+  max-width: 46rem;
+  border-top: 1px solid var(--stroke);
+}
+
+.faq__item {
+  border-bottom: 1px solid var(--stroke);
+  padding: 18px 0;
+}
+
+.faq__q {
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  font-size: 1rem;
+  color: var(--text);
+}
+
+.faq__q::-webkit-details-marker {
+  display: none;
+}
+
+.faq__q::after {
+  content: "+";
+  color: var(--accent);
+  font-family: ui-monospace, Menlo, monospace;
+}
+
+.faq__item[open] .faq__q::after {
+  content: "−";
+}
+
+.faq__a {
+  margin: 12px 0 0;
+  max-width: 40rem;
+  font-size: 15px;
+  color: var(--muted);
 }
 
 /* ---------- extra pages ---------- */
